@@ -223,6 +223,14 @@
       font-style: italic;
     }
 
+    .closing-mark {
+      font-style: normal;
+    }
+
+    .closing-tail {
+      white-space: nowrap;
+    }
+
     .footer {
       border-top: 1px solid rgba(255,255,255,.08);
       background: #282d31;
@@ -346,11 +354,8 @@
         <p>Yes I know. Extremely nerdy.</p>
 
         <p class="closing">
-          But sometimes a tiny thing on the internet can carry a surprisingly deep
-          personal meaning, who knows.
-        </p>
-        <p>🟥</p>
-
+          But sometimes a tiny thing on the internet can carry a surprisingly
+          <span class="closing-tail">deep personal meaning, who knows. <span class="closing-mark" aria-hidden="true">🟥</span></span></p>
       </div>
     </div>
   </section>
